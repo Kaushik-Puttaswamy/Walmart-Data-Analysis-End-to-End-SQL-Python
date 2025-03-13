@@ -132,5 +132,31 @@ Follow the project pipeline to load & analyze data.
 |-- requirements.txt          # Required Python libraries
 |-- main.py                   # Main script for data processing
 
+## 🔎 Results & Insights
+
+Sales Insights: Top categories, highest sales branches, and preferred payment methods.
+
+Profitability: Most profitable product categories & locations.
+
+Customer Behavior: Trends in ratings, payment methods, and peak shopping hours.
+
+## 🌟 Future Enhancements
+
+📊 Dashboard Integration with Power BI or Tableau.
+
+🔗 Additional Data Sources for deeper insights.
+
+🤖 Automation of the data pipeline for real-time analysis.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 🙌 Acknowledgments
+
+Data Source: Kaggle’s Walmart Sales Dataset
+
+Inspiration: Walmart’s business case studies on sales & supply chain optimization.
 
 
+**🚀 Happy Coding & Data Exploring! 🎯**
