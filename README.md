@@ -112,3 +112,25 @@ Kaggle API Key (for data download)
 🏁 Getting Started
 
 Clone the repository:
+
+git clone <repo-url>
+
+
+Install required libraries:
+
+pip install -r requirements.txt
+
+Set up Kaggle API & download the dataset.
+
+Follow the project pipeline to load & analyze data.
+
+## 📂 Project Structure
+|-- data/                     # Raw & transformed data
+|-- sql_queries/              # SQL scripts for analysis
+|-- notebooks/                # Jupyter notebooks for Python analysis
+|-- README.md                 # Project documentation
+|-- requirements.txt          # Required Python libraries
+|-- main.py                   # Main script for data processing
+
+
+
