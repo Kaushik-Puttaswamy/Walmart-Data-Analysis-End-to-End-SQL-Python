@@ -24,7 +24,7 @@ This end-to-end data analysis project extracts critical business insights from W
 
 • **Source:** Kaggle's [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets).
 
-• **Storage:** Save the dataset in the `` data/ ``` folder for easy reference and access..
+• **Storage:** Save the dataset in the ``` data/ ``` folder for easy reference and access..
 
 ### 4️⃣ Install Required Libraries 🏗️
 
@@ -32,7 +32,6 @@ This end-to-end data analysis project extracts critical business insights from W
 
 ```
 pip install pandas numpy sqlalchemy mysql-connector-python psycopg2 
-
 ```
 • **Load Data:** Read into a Pandas DataFrame for analysis.
 
@@ -44,7 +43,6 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 df.info()
 df.describe()
 df.head()
-
 ```
 
 ### 6️⃣ Data Cleaning 🧹
