@@ -8,56 +8,60 @@ This end-to-end data analysis project extracts critical business insights from W
 
 ### 1️⃣ Set Up the Environment 🛠️
 
-Tools Used: VS Code, Python, MySQL, PostgreSQL.
+• **Tools Used:** VS Code, Python, MySQL, PostgreSQL.
 
-Goal: Establish a structured workspace for efficient data handling.
+• **Goal:** Establish a structured workspace for efficient data handling.
 
 ### 2️⃣ Set Up Kaggle API 🔑
 
-API Setup: Download your Kaggle API token from Kaggle.
+• **API Setup:** Download your Kaggle API token from [Kaggle](https://www.kaggle.com/).
 
-Configure: Place kaggle.json in .kaggle/ folder.
+• **Configure:** Place ``` kaggle.json ``` in ```.kaggle/``` folder.
 
-Download Data: Use kaggle datasets download -d <dataset-path>.
+• **Download Data:** Use ``` kaggle datasets download -d https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets```.
 
 ### 3️⃣ Download Walmart Sales Data 📥
 
-Source: Kaggle's Walmart Sales Dataset.
+• **Source:** Kaggle's [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets).
 
-Storage: Save the dataset in the data/ folder.
+• **Storage:** Save the dataset in the `` data/ ``` folder for easy reference and access..
 
 ### 4️⃣ Install Required Libraries 🏗️
 
-Install dependencies:
+• **Install dependencies:**
 
-''' 
+```
 pip install pandas numpy sqlalchemy mysql-connector-python psycopg2 
 
-'''
+```
+• **Load Data:** Read into a Pandas DataFrame for analysis.
 
 ### 5️⃣ Explore the Data 🔍
 
-Get an overview using:
+• Get an overview using:
 
+```
 df.info()
 df.describe()
 df.head()
 
+```
+
 ### 6️⃣ Data Cleaning 🧹
 
-Remove Duplicates to avoid skewed results.
+• Remove Duplicates to avoid skewed results.
 
-Handle Missing Values: Drop or fill where needed.
+• Handle Missing Values: Drop or fill where needed.
 
-Fix Data Types: Convert dates to datetime, prices to float.
+• Fix Data Types: Convert dates to datetime, prices to float.
 
-Format Currency for consistency.
+• Format Currency for consistency.
 
-Validation: Ensure data integrity.
+• Validation: Ensure data integrity.
 
 ### 7️⃣ Feature Engineering ✨
 
-Create New Columns: Add Total Amount = unit_price * quantity.
+Create New Columns: Add ``` Total Amount = unit_price * quantity ```.
 
 Enhance Data for SQL-based aggregation.
 
@@ -105,7 +109,7 @@ Python: 3.8+
 
 Databases: MySQL, PostgreSQL
 
-Libraries: pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
+Libraries: ``` pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2 ```
 
 Kaggle API Key (for data download)
 
@@ -113,24 +117,26 @@ Kaggle API Key (for data download)
 
 Clone the repository:
 
-git clone <repo-url>
+``` git clone <repo-url> ```
 
 
 Install required libraries:
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 Set up Kaggle API & download the dataset.
 
 Follow the project pipeline to load & analyze data.
 
 ## 📂 Project Structure
-|-- data/                     # Raw & transformed data
-|-- sql_queries/              # SQL scripts for analysis
-|-- notebooks/                # Jupyter notebooks for Python analysis
+|-- Walmart.csv                     # Raw & transformed data
+|-- Mysql-queries.sql/              # MSQL scripts for analysis
+|-- Psql-queries.sql/              # PSQL scripts for analysis
+|-- Walmart-data-migration-to-mysql-&-Psql.ipynb/                # Jupyter notebooks for Python analysis
+|--walmart_project-piplelines.png      # Project Achitecture
 |-- README.md                 # Project documentation
 |-- requirements.txt          # Required Python libraries
-|-- main.py                   # Main script for data processing
+
 
 ## 🔎 Results & Insights
 
